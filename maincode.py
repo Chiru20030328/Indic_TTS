@@ -1,5 +1,5 @@
 from ai4bharat.transliteration import XlitEngine
-from gtts import gTTS 
+#from gtts import gTTS 
 import os
 def process(intext,lang):
     e = XlitEngine(lang, beam_width=10)
